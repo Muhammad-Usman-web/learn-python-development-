@@ -1,0 +1,5 @@
+inum=int(input("enter your number = "))
+if inum % 2 == 0:
+    print("enven number ")
+else:
+    print ("not even number")
