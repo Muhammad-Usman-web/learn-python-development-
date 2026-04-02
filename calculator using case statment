@@ -1,0 +1,17 @@
+num1 = int(input("Enter your first number: "))
+num2 = int(input("Enter your second number: "))
+op = input("Enter your operation (+, -, *, %): ")   # keep as string
+
+match op:
+    case '+':
+        ans = num1 + num2
+    case '-':
+        ans = num1 - num2
+    case '*':
+        ans = num1 * num2
+    case '%':
+        ans = num1 % num2
+    case _:                # default case (like else)
+        ans = "Invalid operation"
+
+print(ans)
