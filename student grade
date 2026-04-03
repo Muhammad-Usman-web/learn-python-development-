@@ -1,0 +1,17 @@
+num1 = int(input("Enter your gain number = "))
+num2 = int(input("Enter your total number = "))
+if num2 == 0:
+    print("Error: Total number cannot be zero.")
+else:
+    grade = num1 / num2 * 100
+if grade >= 90:
+    print ("A grade")
+elif grade >= 89:
+    print ("B grade")
+elif grade >= 79:
+    print("C garde")
+elif grade >= 69:
+    print ("D grade")
+else :
+    print (" you fail the Exam ")
+print("your percentage is = " , grade)
