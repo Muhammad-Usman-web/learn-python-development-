@@ -1,0 +1,4 @@
+import hashlib 
+txt=(input("enter your message "))
+hashvalue = hashlib.sha256(txt.encode())
+print("the user msg is ",hashvalue.hexdigest())
