@@ -1,0 +1,6 @@
+file = open ("example .txt ","w")
+string= input("enter your detials your name age and address ")
+file . write (string)
+file = open ("example .txt ","r")
+file . read()
+file .close()
