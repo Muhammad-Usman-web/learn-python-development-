@@ -1,0 +1,10 @@
+thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+for i in thislist:
+    print(i)
+if "banana" in thislist:
+    print("banana is present in this list")
+
+thislist.append("grapes")
+print(thislist)
+thislist.remove("grapes")
+print(thislist)
